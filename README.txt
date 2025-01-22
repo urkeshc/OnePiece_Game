@@ -1,4 +1,4 @@
-# **One Piece: Thousand Sunny - A Thrilling Adventure in the Grand Line!** 🌊🏴‍☠️
+### **One Piece: Thousand Sunny - A Thrilling Adventure in the Grand Line!** 🌊🏴‍☠️
 
 Welcome to the game. This is a game I created, written in Java, using the MVC architecture. As long as you have a JVM on your machine, as well as `lombok` installed, you should be able to run it. Make sure to read the instructions to run it properly.
 
