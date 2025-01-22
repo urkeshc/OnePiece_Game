@@ -67,10 +67,10 @@ Avoid excessive acceleration! If your ship moves too fast, it becomes much harde
 ## **Running the Game**
 1. Install the JDK and ensure `lombok.jar` is accessible.
 2. Ensure you have the project structure, including the `sources.txt` file and the `lombok.jar`. Make sure you are in the root directory of the project (`OnePiece_Game`).
-3. Use these commands to compile and run the game:
+3. Use these commands (in the command line) to compile and run the game:
 
 ```bash
 rm -rf out
 mkdir out
-javac -cp ".:lib/lombok.jar" -d out @sources.txt
-java -cp ".:out:lib/lombok.jar:resources" mvc.controller.Game
+javac -cp ".;lib/lombok.jar" -d out @sources.txt
+java -cp ".;out;lib/lombok.jar;resources" mvc.controller.Game
