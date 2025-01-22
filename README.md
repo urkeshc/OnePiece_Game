@@ -57,13 +57,6 @@ Welcome to the game. This is a game I created, written in Java, using the MVC ar
 
 ---
 
-## **Credits**
-Development:  
-Inspired by the world of One Piece, this game combines classic arcade mechanics with the spirit of adventure.  
-Join the Straw Hat Pirates and experience the thrill of battle in **One Piece: Thousand Sunny!** 🌊🏴‍☠️
-
----
-
 ## **Running the Game**
 1. Install the JDK and ensure `lombok.jar` is accessible.
 2. Ensure you have the project structure, including the `sources.txt` file and the `lombok.jar`. Make sure you are in the root directory of the project (`OnePiece_Game`).
