@@ -27,6 +27,8 @@ Welcome to the game. This is a game I created, written in Java, using the MVC ar
 - **Q**: Quit the game
 - **M**: Toggle background music
 - **A**: Toggle radar
+  
+Avoid excessive acceleration! If your ship moves too fast, it becomes much harder to control. To slow down, simply thrust in the opposite direction of your current movement.
 
 ---
 
