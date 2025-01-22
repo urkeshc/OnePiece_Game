@@ -1,0 +1,21 @@
+add cannonball for sunny - done
+increase sunny size - done
+stock luffy balls - done
+stock more than one  - done
+show how many i have (top right) - done
+add sabaody and skypiea bg - done
+add marine ships - done
+add marine ships as FOES - done
+add the possibility to shoot cannonballs to player - done
+add health for thousandSunny - done
+add heart icon for lifes on screen - done
+replace bubbles by clouds in skypiea - done
+replace bubbles by waves in ocean - done
+add enel to throw thunders - done
+add kizaru to throw beams - done
+changer point de vue, pour matche le point de vue du niveau 1 - done
+add cinematic when you pass a level - done
+fix levels to end game at level 3 - done
+show message when you finish game - done
+clean code and rename classes - done
+add different levels of difficulty - done
