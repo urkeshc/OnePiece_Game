@@ -8,6 +8,10 @@ Welcome to the game. This is a game I created, written in Java, using the MVC ar
 </p>
 
 ---
+## **Short Youtube Video (Gameplay)**
+- https://www.youtube.com/watch?v=9J_y0LrBSrA
+  
+--- 
 
 ## **Objective**
 - Survive and advance through levels set in iconic One Piece locations like **Sabaody Archipelago** and **Skypiea**.
