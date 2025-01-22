@@ -1,57 +1,58 @@
-## One Piece: Thousand Sunny - A Thrilling Adventure in the Grand Line! 🌊🏴‍☠️
-
-Welcome to the game. This is a game I created, written in Java, using the mvc architecture. As long as you have a JVM on your machine, aswell as lombok installed, you should be able to run it. Make sure to read the instructions in order to run it. 
+One Piece: Thousand Sunny - A Thrilling Adventure in the Grand Line! 🌊🏴‍☠️
+Welcome to the game. This is a game I created, written in Java, using the MVC architecture. As long as you have a JVM on your machine, as well as lombok installed, you should be able to run it. Make sure to read the instructions to run it properly.
 
 Objective
-    Survive and advance through levels set in iconic One Piece locations like Sabaody Archipelago and Skypiea.
-    Defeat Marine Ships, Kizaru, and Enel using powerful weapons like Cannonballs and the devastating Luffy Ball (Nuke).
-    Collect Devil Fruits to strengthen your ship and Straw Hats to recharge your nukes.
-    Protect the Thousand Sunny by managing its health, shield, and ammunition.
-
+Survive and advance through levels set in iconic One Piece locations like Sabaody Archipelago and Skypiea.
+Defeat Marine Ships, Kizaru, and Enel using powerful weapons like Cannonballs and the devastating Luffy Ball (Nuke).
+Collect Devil Fruits to strengthen your ship and Straw Hats to recharge your nukes.
+Protect the Thousand Sunny by managing its health, shield, and ammunition.
 Controls
-    Arrow Keys:
-        Up: Accelerate (Thrust)
-        Left/Right: Turn
-    Space Bar: Fire cannonballs
-        F: Launch a Luffy Ball (Nuke)
-        P: Pause the game
-        Q: Quit the game
-        M: Toggle background music
-        A: Toggle radar
-
+Arrow Keys:
+Up: Accelerate (Thrust)
+Left/Right: Turn
+Space Bar: Fire cannonballs
+F: Launch a Luffy Ball (Nuke)
+P: Pause the game
+Q: Quit the game
+M: Toggle background music
+A: Toggle radar
 Gameplay Mechanics
-    Levels
-        Progress through 3 levels:
-        Ocean Battle - Fight off Marine Ships and dodge asteroids.
-        Sabaody Archipelago - Face Kizaru amidst chaotic battles.
-        Skypiea - Confront Enel, the final boss.
-    Enemies
-        Marine Ships: Fire cannonballs at you. Dodge and retaliate!
-        Rocks: Avoid these dangerous obstacles.
-        Kizaru Boss: A light-speed menace with devastating attacks.
-        Enel Boss: Beware of his thunderous might!
-    Power-Ups
-        Devil Fruits: Grant temporary boosts to your shields or abilities.
-        Straw Hats: Recharge your Luffy Ball nukes (maximum of 3).
-    Strategy
-        Health Management: The Thousand Sunny starts with 100 health points. Keep an eye on the health bar in the center of the screen.
-        Shield: Collect Devil Fruits to temporarily protect the ship.
-        Radar: Toggle the radar to track enemies and objectives on a mini-map.
-        Cinematics: Enjoy immersive cutscenes when advancing to new levels or defeating bosses.
-
+Levels
+Progress through 3 levels:
+Ocean Battle - Fight off Marine Ships and dodge asteroids.
+Sabaody Archipelago - Face Kizaru amidst chaotic battles.
+Skypiea - Confront Enel, the final boss.
+Enemies
+Marine Ships: Fire cannonballs at you. Dodge and retaliate!
+Rocks: Avoid these dangerous obstacles.
+Kizaru Boss: A light-speed menace with devastating attacks.
+Enel Boss: Beware of his thunderous might!
+Power-Ups
+Devil Fruits: Grant temporary boosts to your shields or abilities.
+Straw Hats: Recharge your Luffy Ball nukes (maximum of 3).
+Strategy
+Health Management: The Thousand Sunny starts with 100 health points. Keep an eye on the health bar in the center of the screen.
+Shield: Collect Devil Fruits to temporarily protect the ship.
+Radar: Toggle the radar to track enemies and objectives on a mini-map.
+Cinematics: Enjoy immersive cutscenes when advancing to new levels or defeating bosses.
 Customization
-    Difficulty Levels: Select Easy, Medium, or Hard at the start of the game to match your skill level. Changing the level will dinamically adjust the health level of bosses, aswell as the number of foes. 
-    Background Music: Toggle music on or off using the M key.
-
+Difficulty Levels: Select Easy, Medium, or Hard at the start of the game to match your skill level. Changing the level dynamically adjusts the health level of bosses as well as the number of foes.
+Background Music: Toggle music on or off using the M key.
 Credits
-    Development: Inspired by the world of One Piece, this game combines classic arcade mechanics with the spirit of adventure.
-    Join the Straw Hat Pirates and experience the thrill of battle in One Piece: Thousand Sunny! 🌊🏴‍☠️
+Development:
+Inspired by the world of One Piece, this game combines classic arcade mechanics with the spirit of adventure.
+Join the Straw Hat Pirates and experience the thrill of battle in One Piece: Thousand Sunny! 🌊🏴‍☠️
 
-Running the game: 
-    Have a JDK installed, aswel as lombok.jar in an accessible directory. Ensure you have the entire project structure, including the sources.txt file and the lombok.jar, and make sure that you're in the root directory of the project (projava-urkeshc).
-    The game should be able to run on it's own, since the paths accesses are relative to the directory from which you run the game. 
+Running the Game
+Install the JDK and ensure lombok.jar is accessible.
+Ensure you have the project structure, including the sources.txt file and the lombok.jar. Make sure you are in the root directory of the project (OnePiece_Game).
+Use these commands to compile and run the game:
+bash
+Copy
+Edit
+rm -rf out
+mkdir out
+javac -cp ".:lib/lombok.jar" -d out @sources.txt
+java -cp ".:out:lib/lombok.jar:resources" mvc.controller.Game
+The game uses relative paths, so it should work as long as you run it from the project root directory.
 
-    rm -rf out
-    mkdir out
-    javac -cp ".:lib/lombok.jar" -d out @sources.txt
-    java -cp ".:out:lib/lombok.jar:resources" mvc.controller.Game
